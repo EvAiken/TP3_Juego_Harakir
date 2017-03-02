@@ -1,0 +1,175 @@
+/*FONTS*/
+@font-face {
+    font-family: yozakura;
+    src: url(httphttp://52.56.42.239/Harakir://52.56.42.239/Harakir/fonts/YOZAKURA.otf);
+}
+@font-face {
+    font-family: zenzai;
+    src: url(http://localhost/Harakir/fonts/Zenzai.ttf);
+}
+
+body {
+	background-image: url("http://localhost/Harakir/img/templo2.jpg");
+}
+#imagen {
+	opacity: 1.0;
+	z-index: 10;
+	position: relative;
+	left: 60px;
+}
+#letras {
+	position: absolute;
+	bottom: 100px;
+	left: 733px;
+	background-image: url("http://localhost/Harakir/img/bandera1.png");
+	display: none;
+}
+button {
+	width: 50px;
+	height: 50px;
+	opacity: 0.8;
+	font-family: yozakura;
+	font-size: 200%;
+	text-align: center;
+
+}
+#palabra {
+	position: absolute;
+	bottom: 385px;
+	left: 820px;
+	background-color: white;
+	opacity: 0.5;
+	width: 300px;
+	height: 150px;
+}
+#palabra h3 {
+	opacity: 1.0;
+	text-align: center;
+	font-size: 200%;
+}
+#total {
+	font-family: zenzai;
+	font-size: 200%;
+	letter-spacing: 5px;
+}
+#corasone {
+	position: absolute;
+	left: 225px;
+	top: 40px;
+	display: none;
+}
+#samurai {
+	position: absolute;
+	top: 232px;
+	left: 888px;
+	width: 200px;
+	height: 100px;
+	background-image: url("http://localhost/Harakir/img/dojo2.jpg");
+
+}
+/*BOTONES*/
+#musica img {
+	width: 50px;
+	height: 50px;
+}
+#musica {
+	position: absolute;
+	left: 1800px;
+	top: 10px;
+}
+#rendirse img {
+	width: 270px;
+	height: 200px;
+}
+#rendirse {
+	position: absolute;
+	left: 1650px;
+	top: 750px;
+}
+#pista {
+	position: absolute;
+	left: 700px;
+	top: 480px;
+}
+#pista img {
+	width: 80px;
+	height: 80px;
+}
+#pregunta {
+	width: 510px;
+	height: 100px;
+	position: absolute;
+	right: -110px;
+	top: -330px;
+	background-color: white;
+	display: none;
+
+}
+#question {
+	opacity: 1.0;
+	color: black;
+	text-align: center;
+	font-family: zenzai;
+	font-size: 300%;
+	line-height: 25px;
+}
+#divpista {
+	background-color: #00cc66;
+	position: absolute;
+	width: 600px;
+	height: 120px;
+	top: 420px;
+	left: 50px;
+	opacity: 0.75;
+	padding: 10px;
+	padding-bottom: 50px;
+	display: none;
+}
+#respista {
+	text-align: center;
+	font-family: yozakura;
+	font-size: 240%;
+}
+
+#ganar {
+	color: white;
+	text-align: center;
+	position: absolute;
+	background-image: url('http://localhost/Harakiri/img/dojo.jpg');
+	width: 800px;
+	height: 500px;
+	left: 580px;
+	top: 200px;
+	z-index: 1000;
+	display: none;
+}
+
+/*Añadido player, score, points*/
+
+#label{
+	font-family: zenzai;
+	font-size: 200%;
+	letter-spacing: 5px;
+}
+/* Añadido tamaño corazones */
+
+#tabla img{
+	height: 50px;
+}
+
+/* Añadido Boton empezar */
+
+.empezar{
+	position: absolute;
+	bottom: 400px;
+	left: 821px;
+}
+
+.final{
+	background-color: black;
+	width: 400px;
+}
+
+#cla{
+	opacity: 1.0;
+}
